@@ -1,0 +1,2 @@
+# inotex-homepage
+イノテックスジャパンのHP

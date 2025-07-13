@@ -1,11 +1,17 @@
-export function About() {
+import { Button } from "@/components/ui/button";
+
+export function Contact() {
   return (
-    <section className="max-w-2xl mx-auto px-4 py-10">
-      <h2 className="text-2xl font-semibold mb-4">会社概要</h2>
-      <p className="text-gray-700">
-        株式会社イノテックス・ジャパンは、栃木県足利市に拠点を置く繊維業の企業です。
-        室内装飾や資材などの製造・販売を行っています。
-      </p>
+    <section className="bg-gray-50 py-10 px-4">
+      <h2 className="text-2xl font-semibold mb-4 text-center">お問い合わせ</h2>
+      <div className="text-center space-y-2 text-gray-700">
+        <p>代表取締役：猪越 悠介</p>
+        <p>〒326-0844 栃木県足利市鹿島町562</p>
+        <p>TEL: 0284-65-3011 / FAX: 0284-62-7955</p>
+        <p>Email: inotex-japan@orion.ocn.ne.jp</p>
+        <p>携帯: 090-2625-2315</p>
+        <Button variant="outline">メールで連絡する</Button>
+      </div>
     </section>
   );
 }

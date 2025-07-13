@@ -7,9 +7,9 @@ export function Contact() {
       <div className="text-center space-y-2 text-gray-700">
         <p>代表取締役：猪越 悠介</p>
         <p>〒326-0844 栃木県足利市鹿島町562</p>
-        <p>TEL: 0284-65-3011 / FAX: 0284-62-7955</p>
+        <p>TEL: 0284-65-3011</p>
+        <p>FAX: 0284-62-7955</p>
         <p>Email: inotex-japan@orion.ocn.ne.jp</p>
-        <p>携帯: 090-2625-2315</p>
         <Button variant="outline">メールで連絡する</Button>
       </div>
     </section>

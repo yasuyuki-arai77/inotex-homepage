@@ -6,7 +6,6 @@ import { Inter } from "next/font/google";
 import { Noto_Sans_JP } from 'next/font/google'
 
 const noto = Noto_Sans_JP({ subsets: ['latin'], weight: ['400', '700'] })
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "INOTEX JAPAN | 室内装飾・繊維資材メーカー",
@@ -23,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body className={inter.className}>
+      <body className={noto.className}>
         <Header />
         <main>{children}</main>
         <Footer />

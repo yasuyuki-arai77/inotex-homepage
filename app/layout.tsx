@@ -23,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body className={noto.className}>
+      <body className={inter.className}>
         <Header />
         <main>{children}</main>
         <Footer />

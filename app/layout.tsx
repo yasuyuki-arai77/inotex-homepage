@@ -2,7 +2,6 @@ import "../styles/globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import { Noto_Sans_JP } from 'next/font/google'
 
 const noto = Noto_Sans_JP({ subsets: ['latin'], weight: ['400', '700'] })

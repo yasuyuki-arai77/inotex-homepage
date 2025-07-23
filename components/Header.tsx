@@ -7,7 +7,7 @@ export function Header() {
       {/* ロゴ部分 */}
       <div className="text-2xl font-bold text-gray-800">
         <Link href="/">
-          <span>INOTEX JAPAN</span>
+          <img src="/logo.png" alt="ロゴ" className="h-10" />
         </Link>
       </div>
 
